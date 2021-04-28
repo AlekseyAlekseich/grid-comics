@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<style>
+		body {
+			background-color: black;
+		}
+		.all-cont {
+			background-color: black;
+			margin: 2% 30%;
+			padding: 3%;
+			border: 3px solid grey;
+		}
+		.grid-1 {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+		}
+		.za_mamu {
+			grid-column-start: 1;
+			grid-column-end: 2;
+			padding: 10px 1px;
+		}
+		.za_papu {
+			grid-column-start: 2;
+			grid-column-end: 3;
+			padding: 10px 1px;
+		}
+		.za_vdv {
+			grid-column-start:1;
+			grid-column-end: 2;
+			grid-row-start: 2;
+			padding: 5px 1px;
+		}
+		.angry_vdvshnik {
+			grid-column-start: 2;
+			grid-column-end: 3;
+			padding: 5px 1px;
+		}
+		img {
+			width: 300px;
+			height: 300px;
+		}
+	</style>
+</head>
+<body>
+	<div class="all-cont">
+		<div class="grid-container grid-1">
+			<div class="za_mamu">
+				<img src="https://github.com/denis-a13/grid-comics/blob/main/za_mamu.jpg?raw=true">
+			</div>
+			<div class="za_papu">
+				<img src="https://github.com/denis-a13/grid-comics/blob/main/za_papu.jpg?raw=true">
+			</div>
+			<div class="za_vdv">
+				<img src="https://github.com/denis-a13/grid-comics/blob/main/za_vdv.jpg?raw=true">
+			</div>
+			<div class="angry_vdvshnik">
+				<img src="https://github.com/denis-a13/grid-comics/blob/main/angry-vdvshnik.jpg?raw=true">	
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
